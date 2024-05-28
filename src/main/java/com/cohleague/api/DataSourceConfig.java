@@ -13,8 +13,8 @@ import javax.sql.DataSource;
 @Configuration
 public class DataSourceConfig {
 
-    @Value("${spring.datasource.url}")
-    private String url;
+    //@Value("${spring.datasource.url}")
+    private String url = "jdbc:oracle:thin:@cohldb_medium?TNS_ADMIN=C:/Users/Adira/eclipse-workspace/cohl-api/src/main/resources/wallet_cohldb";
 
     @Value("${spring.datasource.username}")
     private String username;

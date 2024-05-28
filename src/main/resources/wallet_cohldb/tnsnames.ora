@@ -1,0 +1,8 @@
+cohldb_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=gdcf381a54fec41_cohldb_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+cohldb_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=gdcf381a54fec41_cohldb_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+cohldb_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=gdcf381a54fec41_cohldb_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
