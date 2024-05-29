@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 public class DataSourceConfig {
 
     //@Value("${spring.datasource.url}")
-    private String url = "jdbc:oracle:thin:@cohldb_medium?TNS_ADMIN=C:/Users/Adira/eclipse-workspace/cohl-api/src/main/resources/wallet_cohldb";
+    private String url = "jdbc:oracle:thin:@cohldb_medium?TNS_ADMIN=C:/Users/Adira/wallets/wallet_cohldb";
 
     @Value("${spring.datasource.username}")
     private String username;
