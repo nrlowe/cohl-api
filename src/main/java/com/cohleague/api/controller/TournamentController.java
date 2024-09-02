@@ -20,7 +20,7 @@ public class TournamentController {
             return new ResponseEntity<>("Tournament created successfully", HttpStatus.OK);
         } catch (Exception e) {
             logger.info("Error saving new tournament:: " + e.toString());
-            return new ResponseEntity<>("Error saving new tournament", HttpStatus.INTERNAL_SERVER_ERROR)
+            return new ResponseEntity<>("Error saving new tournament", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
